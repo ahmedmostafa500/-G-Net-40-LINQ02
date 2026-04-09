@@ -102,13 +102,24 @@ namespace Linque02
         //Console.WriteLine($"Most Expensive Price: {mostExpensivePrice}");
         #endregion
         #region question12
-//        var categories = products
-//    .Select(p => p.Category)
-//    .Distinct();
+        //        var categories = products
+        //    .Select(p => p.Category)
+        //    .Distinct();
 
-//foreach (var category in categories)
+        //foreach (var category in categories)
+        //{
+        //    Console.WriteLine(category);
+        //}
+        #endregion
+        #region question13
+//        int[] setA = { 1, 3, 5, 7, 9, 11, 13 };
+//        int[] setB = { 3, 6, 9, 12, 15, 13 };
+
+//        var result = setA.Except(setB);
+
+//foreach (var id in result)
 //{
-//    Console.WriteLine(category);
+//    Console.WriteLine(id);
 //}
     #endregion
 
