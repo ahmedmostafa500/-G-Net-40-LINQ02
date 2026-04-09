@@ -1,4 +1,6 @@
-﻿namespace Linque02
+﻿using System.Runtime.ConstrainedExecution;
+
+namespace Linque02
 {
     internal class Program
     {
@@ -32,14 +34,32 @@
             //bool exists = ids.Contains(9);
             #endregion
             #region question6
-    //        var grouped = products
-    //.GroupBy(p => p.Category);
+            //        var grouped = products
+            //.GroupBy(p => p.Category);
 
-    //        foreach (var group in grouped)
-    //        {
-    //            Console.WriteLine("Category: " + group.Key);
-    //            Console.WriteLine("Count: " + group.Count());
-    //        }
+            //        foreach (var group in grouped)
+            //        {
+            //            Console.WriteLine("Category: " + group.Key);
+            //            Console.WriteLine("Count: " + group.Count());
+            //        }
+            #endregion
+            #region question7
+            //var groupedNames = products
+            //    .GroupBy(p => p.Category)
+            //    .Select(g => new
+            //    {
+            //        Category = g.Key,
+            //        ProductNames = g.Select(p => p.Name)
+            //    });
+
+            //foreach (var group in groupedNames)
+            //{
+            //    Console.WriteLine("Category: " + group.Category);
+            //    foreach (var name in group.ProductNames)
+            //    {
+            //        Console.WriteLine(" - " + name);
+            //    }
+            //}
             #endregion
         }
     }
