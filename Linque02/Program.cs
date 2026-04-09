@@ -61,6 +61,17 @@ namespace Linque02
             //    }
             //}
             #endregion
+            #region question8
+    //        var categories = products
+    //.GroupBy(p => p.Category)
+    //.Where(g => g.Count() > 3)
+    //.Select(g => g.Key);
+
+    //        foreach (var category in categories)
+    //        {
+    //            Console.WriteLine(category);
+            }
+            #endregion
         }
     }
 }
