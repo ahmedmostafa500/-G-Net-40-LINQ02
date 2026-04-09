@@ -73,21 +73,27 @@ namespace Linque02
             }
         #endregion
             #region question9
-//        var result =
-//    from c in customers
-//    group c by c.Country into g
-//    select new
-//    {
-//        Country = g.Key,
-//        Count = g.Count(),
-//        TotalOrderValue = g.Sum(c => c.Orders.Sum(o => o.Total))
-//    };
+        //        var result =
+        //    from c in customers
+        //    group c by c.Country into g
+        //    select new
+        //    {
+        //        Country = g.Key,
+        //        Count = g.Count(),
+        //        TotalOrderValue = g.Sum(c => c.Orders.Sum(o => o.Total))
+        //    };
 
-//foreach (var group in result)
-//{
-//    Console.WriteLine($"Country: {group.Country}, Count: {group.Count}, TotalOrderValue: {group.TotalOrderValue}");
-//}
-    #endregion
-}
+        //foreach (var group in result)
+        //{
+        //    Console.WriteLine($"Country: {group.Country}, Count: {group.Count}, TotalOrderValue: {group.TotalOrderValue}");
+        //}
+        #endregion
+            #region question10
+        //int totalUnits = products.Sum(p => p.UnitsInStock);
+        //Console.WriteLine("Total Units in Stock: " + totalUnits);
+
+
+        #endregion
+    }
     }
 }
