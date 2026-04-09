@@ -17,6 +17,10 @@
             //    .Skip((pageNumber - 1) * pageSize)
             //    .Take(pageSize);
             #endregion
+            #region question3
+    //        var result = products
+    //.TakeWhile(p => p.UnitPrice < 25);
+            #endregion
         }
     }
 }
