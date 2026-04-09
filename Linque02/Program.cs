@@ -149,7 +149,19 @@ namespace Linque02
         //}
         #endregion
         #region question16
-//        var product = products.FirstOrDefault(p => p.UnitPrice > 50);
+        //        var product = products.FirstOrDefault(p => p.UnitPrice > 50);
+
+        //if (product != null)
+        //{
+        //    Console.WriteLine($"ProductID: {product.ProductID}, Name: {product.Name}, Price: {product.UnitPrice}");
+        //}
+        //else
+        //{
+        //    Console.WriteLine("No product found with price > 50");
+        //}
+        #endregion
+        #region question17
+//        var product = products.FirstOrDefault(p => p.UnitPrice > 500);
 
 //if (product != null)
 //{
@@ -157,7 +169,7 @@ namespace Linque02
 //}
 //else
 //{
-//    Console.WriteLine("No product found with price > 50");
+//    Console.WriteLine("No product found with price > 500");
 //}
         #endregion
 
