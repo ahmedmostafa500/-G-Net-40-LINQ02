@@ -18,8 +18,13 @@
             //    .Take(pageSize);
             #endregion
             #region question3
-    //        var result = products
-    //.TakeWhile(p => p.UnitPrice < 25);
+            //        var result = products
+            //.TakeWhile(p => p.UnitPrice < 25);
+            #endregion
+            #region question4
+    //        bool allInStock = products
+    //.Where(p => p.Category == "Seafood")
+    //.All(p => p.UnitsInStock > 0);
             #endregion
         }
     }
