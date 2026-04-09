@@ -1,4 +1,5 @@
-﻿using System.Runtime.ConstrainedExecution;
+﻿using System.Collections.Generic;
+using System.Runtime.ConstrainedExecution;
 
 namespace Linque02
 {
@@ -62,15 +63,15 @@ namespace Linque02
             //}
             #endregion
             #region question8
-    //        var categories = products
-    //.GroupBy(p => p.Category)
-    //.Where(g => g.Count() > 3)
-    //.Select(g => g.Key);
+            //        var categories = products
+            //.GroupBy(p => p.Category)
+            //.Where(g => g.Count() > 3)
+            //.Select(g => g.Key);
 
-    //        foreach (var category in categories)
-    //        {
-    //            Console.WriteLine(category);
-            }
+            //        foreach (var category in categories)
+            //        {
+            //            Console.WriteLine(category);
+        }
         #endregion
         #region question9
         //        var result =
@@ -134,17 +135,29 @@ namespace Linque02
         //}
         #endregion
         #region question15
-        
-//        var productDict = products.ToDictionary(p => p.ProductID);
+
+        //        var productDict = products.ToDictionary(p => p.ProductID);
 
 
-//if (productDict.TryGetValue(18, out var product))
+        //if (productDict.TryGetValue(18, out var product))
+        //{
+        //    Console.WriteLine($"ProductID: {product.ProductID}, Name: {product.Name}, Price: {product.UnitPrice}");
+        //}
+        //else
+        //{
+        //    Console.WriteLine("Product with ID 18 not found.");
+        //}
+        #endregion
+        #region question16
+//        var product = products.FirstOrDefault(p => p.UnitPrice > 50);
+
+//if (product != null)
 //{
 //    Console.WriteLine($"ProductID: {product.ProductID}, Name: {product.Name}, Price: {product.UnitPrice}");
 //}
 //else
 //{
-//    Console.WriteLine("Product with ID 18 not found.");
+//    Console.WriteLine("No product found with price > 50");
 //}
         #endregion
 
