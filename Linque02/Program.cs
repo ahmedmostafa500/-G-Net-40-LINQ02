@@ -161,19 +161,29 @@ namespace Linque02
         //}
         #endregion
         #region question17
-//        var product = products.FirstOrDefault(p => p.UnitPrice > 500);
+        //        var product = products.FirstOrDefault(p => p.UnitPrice > 500);
 
-//if (product != null)
-//{
-//    Console.WriteLine($"ProductID: {product.ProductID}, Name: {product.Name}, Price: {product.UnitPrice}");
-//}
-//else
-//{
-//    Console.WriteLine("No product found with price > 500");
-//}
+        //if (product != null)
+        //{
+        //    Console.WriteLine($"ProductID: {product.ProductID}, Name: {product.Name}, Price: {product.UnitPrice}");
+        //}
+        //else
+        //{
+        //    Console.WriteLine("No product found with price > 500");
+        //}
         #endregion
+        #region question18
+//        int number = 7;
 
-    }
+//        var row = Enumerable.Range(1, 10)
+//            .Select(i => number * i);
+
+//foreach (var value in row)
+//{
+//    Console.WriteLine($"7 x {value / 7} = {value}");
+//}
+    #endregion
+}
     }
 }
 
