@@ -173,14 +173,23 @@ namespace Linque02
         //}
         #endregion
         #region question18
-//        int number = 7;
+        //        int number = 7;
 
-//        var row = Enumerable.Range(1, 10)
-//            .Select(i => number * i);
+        //        var row = Enumerable.Range(1, 10)
+        //            .Select(i => number * i);
 
-//foreach (var value in row)
+        //foreach (var value in row)
+        //{
+        //    Console.WriteLine($"7 x {value / 7} = {value}");
+        //}
+        #endregion
+        #region question19
+//        var evenNumbers = Enumerable.Range(1, 30)
+//    .Where(n => n % 2 == 0);
+
+//foreach (var n in evenNumbers)
 //{
-//    Console.WriteLine($"7 x {value / 7} = {value}");
+//    Console.WriteLine(n);
 //}
     #endregion
 }
