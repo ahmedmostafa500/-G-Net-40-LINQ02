@@ -72,7 +72,7 @@ namespace Linque02
     //            Console.WriteLine(category);
             }
         #endregion
-            #region question9
+        #region question9
         //        var result =
         //    from c in customers
         //    group c by c.Country into g
@@ -88,11 +88,18 @@ namespace Linque02
         //    Console.WriteLine($"Country: {group.Country}, Count: {group.Count}, TotalOrderValue: {group.TotalOrderValue}");
         //}
         #endregion
-            #region question10
+        #region question10
         //int totalUnits = products.Sum(p => p.UnitsInStock);
         //Console.WriteLine("Total Units in Stock: " + totalUnits);
 
 
+        #endregion
+        #region question11
+//        decimal cheapestPrice = products.Min(p => p.UnitPrice);
+//        decimal mostExpensivePrice = products.Max(p => p.UnitPrice);
+
+//        Console.WriteLine($"Cheapest Price: {cheapestPrice}");
+//Console.WriteLine($"Most Expensive Price: {mostExpensivePrice}");
         #endregion
     }
     }
