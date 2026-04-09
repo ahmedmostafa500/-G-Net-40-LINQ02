@@ -123,18 +123,32 @@ namespace Linque02
         //}
         #endregion
         #region question14
-//        string[] list1 = { "Germany", "France", "UK", "Spain" };
-//        string[] list2 = { "france", "SPAIN", "Italy" };
+        //        string[] list1 = { "Germany", "France", "UK", "Spain" };
+        //        string[] list2 = { "france", "SPAIN", "Italy" };
 
-//        var result = list1.Except(list2, StringComparer.OrdinalIgnoreCase);
+        //        var result = list1.Except(list2, StringComparer.OrdinalIgnoreCase);
 
-//foreach (var country in result)
+        //foreach (var country in result)
+        //{
+        //    Console.WriteLine(country);
+        //}
+        #endregion
+        #region question15
+        
+//        var productDict = products.ToDictionary(p => p.ProductID);
+
+
+//if (productDict.TryGetValue(18, out var product))
 //{
-//    Console.WriteLine(country);
+//    Console.WriteLine($"ProductID: {product.ProductID}, Name: {product.Name}, Price: {product.UnitPrice}");
 //}
-    #endregion
+//else
+//{
+//    Console.WriteLine("Product with ID 18 not found.");
+//}
+        #endregion
 
-}
+    }
     }
 }
 
