@@ -22,9 +22,14 @@
             //.TakeWhile(p => p.UnitPrice < 25);
             #endregion
             #region question4
-    //        bool allInStock = products
-    //.Where(p => p.Category == "Seafood")
-    //.All(p => p.UnitsInStock > 0);
+            //        bool allInStock = products
+            //.Where(p => p.Category == "Seafood")
+            //.All(p => p.UnitsInStock > 0);
+            #endregion
+            #region question5
+            //int[] ids = { 3, 9, 13, 18 };
+
+            //bool exists = ids.Contains(9);
             #endregion
         }
     }
