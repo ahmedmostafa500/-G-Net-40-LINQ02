@@ -95,12 +95,24 @@ namespace Linque02
 
         #endregion
         #region question11
-//        decimal cheapestPrice = products.Min(p => p.UnitPrice);
-//        decimal mostExpensivePrice = products.Max(p => p.UnitPrice);
+        //        decimal cheapestPrice = products.Min(p => p.UnitPrice);
+        //        decimal mostExpensivePrice = products.Max(p => p.UnitPrice);
 
-//        Console.WriteLine($"Cheapest Price: {cheapestPrice}");
-//Console.WriteLine($"Most Expensive Price: {mostExpensivePrice}");
+        //        Console.WriteLine($"Cheapest Price: {cheapestPrice}");
+        //Console.WriteLine($"Most Expensive Price: {mostExpensivePrice}");
         #endregion
-    }
+        #region question12
+//        var categories = products
+//    .Select(p => p.Category)
+//    .Distinct();
+
+//foreach (var category in categories)
+//{
+//    Console.WriteLine(category);
+//}
+    #endregion
+
+}
     }
 }
+
