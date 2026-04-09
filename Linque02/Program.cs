@@ -31,6 +31,16 @@
 
             //bool exists = ids.Contains(9);
             #endregion
+            #region question6
+    //        var grouped = products
+    //.GroupBy(p => p.Category);
+
+    //        foreach (var group in grouped)
+    //        {
+    //            Console.WriteLine("Category: " + group.Key);
+    //            Console.WriteLine("Count: " + group.Count());
+    //        }
+            #endregion
         }
     }
 }
