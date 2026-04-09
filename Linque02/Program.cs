@@ -184,12 +184,32 @@ namespace Linque02
         //}
         #endregion
         #region question19
-//        var evenNumbers = Enumerable.Range(1, 30)
-//    .Where(n => n % 2 == 0);
+        //        var evenNumbers = Enumerable.Range(1, 30)
+        //    .Where(n => n % 2 == 0);
 
-//foreach (var n in evenNumbers)
+        //foreach (var n in evenNumbers)
+        //{
+        //    Console.WriteLine(n);
+        //}
+        #endregion
+        #region question20
+        
+//        var productNames = products
+//            .Select(p => p.Name)
+//            .Take(3);
+
+    
+//        var customerNames = customers
+//            .Select(c => c.CompanyName)
+//            .Take(3);
+
+       
+//        var combined = productNames.Concat(customerNames);
+
+
+//foreach (var name in combined)
 //{
-//    Console.WriteLine(n);
+//    Console.WriteLine(name);
 //}
     #endregion
 }
